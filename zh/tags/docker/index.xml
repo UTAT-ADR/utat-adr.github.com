@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 瓦尔登湖</title>
+    <link>https://walden.genway.com.cn/zh/tags/docker/</link>
+    <description>Recent content in Docker on 瓦尔登湖</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans-CN</language>
+    <managingEditor>13050082@qq.com (家猫)</managingEditor>
+    <webMaster>13050082@qq.com (家猫)</webMaster>
+    <copyright>版权所有</copyright>
+    <lastBuildDate>Sat, 15 Apr 2023 07:00:43 +0000</lastBuildDate>
+    <atom:link href="https://walden.genway.com.cn/zh/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Docker 容器中运行 Apache 网站服务器</title>
+      <link>https://walden.genway.com.cn/zh/blog/run-httpd-in-docker-as-webserver/</link>
+      <pubDate>Sat, 15 Apr 2023 07:00:43 +0000</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://walden.genway.com.cn/zh/blog/run-httpd-in-docker-as-webserver/</guid>
+      <description>&lt;p&gt;在 Docker 容器中使用官方 HTTPD 镜像搭建 Apache Web 服务器的作业记录。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 22.04 安装 Docker</title>
+      <link>https://walden.genway.com.cn/zh/blog/install-docker-on-ubuntu/</link>
+      <pubDate>Sat, 15 Apr 2023 06:18:03 +0000</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://walden.genway.com.cn/zh/blog/install-docker-on-ubuntu/</guid>
+      <description>&lt;p&gt;Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。它可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，实现虚拟化。本文记录了在 Ubuntu 系统上安装 Docker 的过程，以及删除 Docker 的方法。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

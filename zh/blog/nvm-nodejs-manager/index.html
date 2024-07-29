@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" data-theme="light">
+    <head>
+<meta charset="utf-8" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>NVM - Nodejs 版本管理器 ｜ 瓦尔登湖</title>
+
+
+<link href="/favicon.png" rel="icon">
+<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
+
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header id="header"><header class="container base-header">
+
+    <div id="title">
+        <a href="/zh/" >瓦尔登湖</a>
+    </div>
+    
+    <div id="menuToggle">
+        <a><i class="bi bi-list"></i></a>
+    </div>
+    
+    <div id="menu">
+        <ul class="menu">
+        
+        
+            
+            
+            <li class="menu-item">
+                <a class="" href="/zh/">首页</a>
+            </li>
+        
+            
+            
+            <li class="menu-item">
+                <a class=" active " href="/zh/blog/">博客</a>
+            </li>
+        
+        
+        
+                <li class="menu-item">
+                    <a class="lang-toggle" href="https://walden.genway.com.cn/">EN</a>
+                </li>
+                
+            
+            
+        
+        
+        </ul>
+    </div>
+
+</header>
+
+
+</header>
+        <div id="necker">
+<div class="container"><ol class="breadcrumb">
+    
+    
+        
+    
+        
+    
+    <li class="breadcrumb-item">首页</li>
+
+    
+    <li class="breadcrumb-item">博客</li>
+
+    
+    <li class="breadcrumb-item">NVM - Nodejs 版本管理器</li>
+
+</ol>
+</div>
+
+        </div>
+        <div id="stager">
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container"><div class="content">
+
+    
+    <article>
+        <div class="content-header">
+            <h1 class="title">NVM - Nodejs 版本管理器</h1>
+            <p class="meta">
+                <span>Dec 25, 2022</span>
+                <span>
+                    
+                        Homecat
+                    
+                </span>
+            </p>
+        </div>
+        <div class="markdown"><p>NVM 是 Nodejs 的版本管理器，适用于不同操作平台上任何符合 POSIX 标准的 shell， 如：sh、dash、ksh、zsh、bash等，允许用户通过命令行快速安装和使用不同版本的 Nodejs。</p>
+<h2 id="准备">准备</h2>
+<ul>
+<li>远程仓库位置：<a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></li>
+<li>本地安装环境：<a href="https://ubuntu.com">Ubuntu 22.04 LTS</a></li>
+</ul>
+<h2 id="获取安装文件">获取安装文件</h2>
+<p>安装文件为 <a href="https://github.com/nvm-sh/nvm/blob/master/install.sh">https://github.com/nvm-sh/nvm/blob/master/install.sh</a>，可通过多种方式下载到本地 /home 目录，最简单的方式就是直接拷贝。</p>
+<h2 id="安装">安装</h2>
+<p>根据使用系统的 shell，Ubuntu 22.04 LTS 可使用 bash，执行相关的安装命令：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">bash install.sh
+</span></span></code></pre></div><p>系统输出的安装信息：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Downloading</span> <span class="n">nvm</span> <span class="n">from</span> <span class="n">git</span> <span class="n">to</span> <span class="s1">&#39;/home/zhong/.nvm&#39;</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Cloning</span> <span class="n">into</span> <span class="s1">&#39;/home/zhong/.nvm&#39;</span><span class="o">...</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="n">remote</span><span class="p">:</span> <span class="n">Enumerating</span> <span class="n">objects</span><span class="p">:</span> <span class="mi">358</span><span class="p">,</span> <span class="n">done</span><span class="o">.</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="n">remote</span><span class="p">:</span> <span class="n">Counting</span> <span class="n">objects</span><span class="p">:</span> <span class="mi">100</span><span class="o">%</span> <span class="p">(</span><span class="mi">358</span><span class="o">/</span><span class="mi">358</span><span class="p">),</span> <span class="n">done</span><span class="o">.</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="n">remote</span><span class="p">:</span> <span class="n">Compressing</span> <span class="n">objects</span><span class="p">:</span> <span class="mi">100</span><span class="o">%</span> <span class="p">(</span><span class="mi">304</span><span class="o">/</span><span class="mi">304</span><span class="p">),</span> <span class="n">done</span><span class="o">.</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="n">remote</span><span class="p">:</span> <span class="n">Total</span> <span class="mi">358</span> <span class="p">(</span><span class="n">delta</span> <span class="mi">39</span><span class="p">),</span> <span class="n">reused</span> <span class="mi">176</span> <span class="p">(</span><span class="n">delta</span> <span class="mi">28</span><span class="p">),</span> <span class="n">pack</span><span class="o">-</span><span class="n">reused</span> <span class="mi">0</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="n">Receiving</span> <span class="n">objects</span><span class="p">:</span> <span class="mi">100</span><span class="o">%</span> <span class="p">(</span><span class="mi">358</span><span class="o">/</span><span class="mi">358</span><span class="p">),</span> <span class="mf">219.30</span> <span class="n">KiB</span> <span class="o">|</span> <span class="mf">56.00</span> <span class="n">KiB</span><span class="o">/</span><span class="n">s</span><span class="p">,</span> <span class="n">done</span><span class="o">.</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="n">Resolving</span> <span class="n">deltas</span><span class="p">:</span> <span class="mi">100</span><span class="o">%</span> <span class="p">(</span><span class="mi">39</span><span class="o">/</span><span class="mi">39</span><span class="p">),</span> <span class="n">done</span><span class="o">.</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">(</span><span class="n">HEAD</span> <span class="n">detached</span> <span class="n">at</span> <span class="n">FETCH_HEAD</span><span class="p">)</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">  <span class="n">master</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Compressing</span> <span class="ow">and</span> <span class="n">cleaning</span> <span class="n">up</span> <span class="n">git</span> <span class="n">repository</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Appending</span> <span class="n">nvm</span> <span class="n">source</span> <span class="n">string</span> <span class="n">to</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">zhong</span><span class="o">/.</span><span class="n">bashrc</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Appending</span> <span class="n">bash_completion</span> <span class="n">source</span> <span class="n">string</span> <span class="n">to</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">zhong</span><span class="o">/.</span><span class="n">bashrc</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="o">=&gt;</span> <span class="n">Close</span> <span class="ow">and</span> <span class="n">reopen</span> <span class="n">your</span> <span class="n">terminal</span> <span class="n">to</span> <span class="n">start</span> <span class="n">using</span> <span class="n">nvm</span> <span class="ow">or</span> <span class="n">run</span> <span class="n">the</span> <span class="n">following</span> <span class="n">to</span> <span class="n">use</span> <span class="n">it</span> <span class="n">now</span><span class="p">:</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="k">export</span> <span class="n">NVM_DIR</span><span class="o">=</span><span class="s2">&#34;$HOME/.nvm&#34;</span> <span class="o">&lt;/</span><span class="n">br</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="p">[</span> <span class="o">-</span><span class="n">s</span> <span class="s2">&#34;$NVM_DIR/nvm.sh&#34;</span> <span class="p">]</span> <span class="o">&amp;&amp;</span> \<span class="o">.</span> <span class="s2">&#34;$NVM_DIR/nvm.sh&#34;</span>  <span class="c1"># This loads nvm &lt;/br&gt;</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="p">[</span> <span class="o">-</span><span class="n">s</span> <span class="s2">&#34;$NVM_DIR/bash_completion&#34;</span> <span class="p">]</span> <span class="o">&amp;&amp;</span> \<span class="o">.</span> <span class="s2">&#34;$NVM_DIR/bash_completion&#34;</span>  <span class="c1"># This loads nvm bash_completion &lt;/br&gt;</span>
+</span></span></code></pre></div><h2 id="验证">验证</h2>
+<p>根据安装信息可了解到安装目录 &ldquo;/.nvm&rdquo; 和启动方式：退出 Shell 终端并重新启动，执行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">nvm --version &lt;/br&gt;
+</span></span><span class="line"><span class="ln">2</span><span class="cl">0.39.3
+</span></span></code></pre></div><p>输出版本表示安装成功。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">**NOTICE**  
+</span></span><span class="line"><span class="ln">2</span><span class="cl">在 Linux 上运行安装脚本后验证，如果提示 &#34;command not found&#34; 或终端没有反馈信息： 输入命令 &#34;command -v nvm&#34; 后关闭终端，再打开一个新终端继续验证; 或者，打开另一个 Shell 终端，输入命令 &#34;source ~/.bashrc&#34;。
+</span></span></code></pre></div><h2 id="卸载">卸载</h2>
+<p>卸载 NVM 只需要删除安装目录 &ldquo;/.nvm&rdquo;。</p></div>
+    </article>
+
+    
+    
+    <div class="content-tag">
+        <span><i class="bi bi-bookmarks-fill"></i></span>
+        
+        <span>
+            <a class="item-link" href="/zh/tags/nvm">NVM</a>
+        </span>
+        
+        <span>
+            <a class="item-link" href="/zh/tags/node">Node</a>
+        </span>
+        
+    </div> 
+    
+
+</div>
+
+</div>
+            <div class="nav-container"><div class="pagination">
+
+    <div class="pagination-item">
+        
+        <a class="left item-link" href="https://walden.genway.com.cn/zh/blog/light-and-dark-mode-switching/">
+            <i class="bi bi-chevron-left"></i>
+            <span>网页明暗模式切换的原生代码</span>
+        </a>
+        
+    </div>
+
+    <div class="pagination-item">
+        
+        <a class="right item-link" href="https://walden.genway.com.cn/zh/blog/nepal-trekking-abc/">
+            <i class="bi bi-chevron-right"></i>
+            <span>安娜普尔纳 ABC 九日</span>
+        </a>
+        
+    </div>
+
+</div></div>
+        </main>
+        <div class="gutter"></div>
+        <aside>
+            <div class="cards-container">
+                <div class="card-container">
+
+<section class="card">
+    <div class="card-title">目录</div>
+    <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#准备">准备</a></li>
+    <li><a href="#获取安装文件">获取安装文件</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#验证">验证</a></li>
+    <li><a href="#卸载">卸载</a></li>
+  </ul>
+</nav>
+    </div>
+
+</section>
+</div>
+                <div class="card-container">
+</div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+        </div>
+        <footer id="footer"><div class="container">
+    <div class="copyright">
+        <i class="bi bi-c-circle"></i>
+        <span>2024</span>
+        <span>家猫</span>
+        <span>版权所有</span>
+    </div>
+</div>
+</footer>
+<script src="/vendor/jquery/jquery-3.7.0.js"></script>
+
+
+<script src="/js/main.js"></script></body>
+</html>
+

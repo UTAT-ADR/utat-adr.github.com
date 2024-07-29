@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on 瓦尔登湖</title>
+    <link>https://walden.genway.com.cn/zh/tags/git/</link>
+    <description>Recent content in Git on 瓦尔登湖</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans-CN</language>
+    <managingEditor>13050082@qq.com (家猫)</managingEditor>
+    <webMaster>13050082@qq.com (家猫)</webMaster>
+    <copyright>版权所有</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 13:16:03 +0800</lastBuildDate>
+    <atom:link href="https://walden.genway.com.cn/zh/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 桌面 - 工具</title>
+      <link>https://walden.genway.com.cn/zh/blog/ubuntu-desktop-tool/</link>
+      <pubDate>Sat, 31 Jul 2021 13:16:03 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://walden.genway.com.cn/zh/blog/ubuntu-desktop-tool/</guid>
+      <description>&lt;p&gt;Ubuntu 有许多工具，实在让人爱不释手。这些工具的使用多半是采用命令方式，随着键盘的敲击声响起，一种随心所欲的感觉油然而生。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
