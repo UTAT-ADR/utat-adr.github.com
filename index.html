@@ -1,250 +1,723 @@
-
 <!DOCTYPE html>
-<html lang="en-US" data-theme="light">
+<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.130.0">
     <head>
-	<meta name="generator" content="Hugo 0.129.0">
-<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/favicon.ico">
 
+    <meta name="keyword" content=""><meta property="og:url" content="/">
+  <meta property="og:site_name" content="iTheme">
+  <meta property="og:title" content="iTheme">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<title>iTheme</title>
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="/">
 
+    <link rel="stylesheet" href="/css/global.css">
 
-<title>Home ｜ Walden</title>
+    <link rel="stylesheet" href="/css/custom.css">
 
+    <link rel="stylesheet" href="/css/search.css" />
 
-<link href="/favicon.png" rel="icon">
-<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+    
+    
 
+    
+    
 
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
-
-
-
-<link href="/css/main.css" rel="stylesheet" type="text/css">
 </head>
-    <body>
-        <header id="header"><header class="container base-header">
-
-    <div id="title">
-        <a href="/" >Walden</a>
+  </head>
+  <body class=" page-landing   ">
+    <header>
+      <nav class="nav">
+  <div class="nav-wrapper">
+    <div class="nav-content-wrapper">
+      <div class="nav-content">
+        <a href="/ " class="nav-title">iTheme</a>
+        <div class="nav-menu">
+          <div class="nav-item-wrapper">
+            <a href="/posts " class="nav-item-content">Articles</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/about" class="nav-item-content">About</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
+          </div></div>
+      </div>
     </div>
-    
-    <div id="menuToggle">
-        <a><i class="bi bi-list"></i></a>
+  </div>
+</nav>
+
+<script>
+  function toggleSearchModal(){
+    const template = `
+    <div class="modal-body">
+      <div id="autocomplete" onclick="event.stopPropagation();"></div>
     </div>
+    `
+    const modal = document.querySelector("#modal-wrapper")
+    if(!modal){
+      const div = document.createElement("div")
+      document.body.setAttribute("style","overflow: hidden;")
+      div.setAttribute("id", "modal-wrapper")
+      div.setAttribute("onclick", "toggleSearchModal()")
+      div.innerHTML = template
+      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
+      div.appendChild(script)
+      document.body.append(div)
+    } else {
+      document.body.removeAttribute("style")
+      document.body.removeChild(modal)
+    }
+  }
+</script>
+    </header>
     
-    <div id="menu">
-        <ul class="menu">
+
+    <section class="everydayfeed">
+    <div class="section-content">
+      <h2 class="section-head">Articles</h2>
+      <ul role="list" class="section-tiles">
         
-        
-            
-            
-            <li class="menu-item">
-                <a class=" active " href="/">Home</a>
-            </li>
-        
-            
-            
-            <li class="menu-item">
-                <a class="" href="/blog/">Blog</a>
-            </li>
-        
-        
-        
-            
-                <li class="menu-item">
-                    <a class="lang-toggle" href="https://walden.genway.com.cn/zh/">中文</a>
-                </li>
-                
-            
-        
-        
-        </ul>
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-hero"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/hello-world/
+    class="tile large-load  medium-load small-load
+      
+      tile-hero
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="lt"/>
     </div>
 
-</header>
-
-
-</header>
-        <div id="necker">
-<div class="container-fluid">
-    
-    <div class="headline" style="background: url(/blog/hugo-theme-walden/headline.jpg) center center no-repeat;">
-    
-        <div class="headline-text">
-            <a href="https://walden.genway.com.cn/blog/hugo-theme-walden/">Hugo Theme Walden</a>
-            <p><p>After reading <i><b>Walden</b></i>, a collection of essays by American writer Henry David Thoreau, I was deeply influenced by his love of nature and simple living. So, I wrote this concise and clear theme for my personal website and named it Walden.</p></p>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Introduce
+            
+          
         </div>
+        <div class="tile__headline">iTheme for Hugo</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 25, 2023</div>
     </div>
-</div>
+  </a>
+</li>
 
+        
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-2up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/mark-down-syntax/
+    class="tile large-load  medium-load small-load
+      
+      tile-2up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Markdown
+            
+          
         </div>
-        <div id="stager">
-<div class="container">
-    <div class="stager">
-        <main>
-            <div class="list-container">
+        <div class="tile__headline">Markdown Syntax Example</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 20, 2023</div>
+    </div>
+  </a>
+</li>
 
-<section class="item">
-
-    <div class="item-thumbnail">
-    
         
-            <img src="https://pic.imgdb.cn/item/658501efc458853aef8aec71.jpg" alt="Thumbnail">
-        
-    
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-2up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple/
+    class="tile large-load  medium-load small-load
+      
+      tile-2up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/values/environment/Apple-Earth-Day-India-mangrove-Alibaug-canoe_Full-Bleed-Image.jpg.large_2x.jpg" alt="lt"/>
     </div>
 
-    <div class="item-text">
-        <a href="https://walden.genway.com.cn/blog/markdown-syntax-3/">
-            <div class="item-text-title"><b>Markdown Syntax - Code, Code Blocks and Image</b></div>
-            <div class="item-text-brief"><p>This post showcases the manifestations of the markdown grammar related to code, code blocks and image in this hugo theme.</p></div>
-            <div class="item-text-meta">
-                <p>
-                    <span>Jul 20, 2023</span>
-                    <span>
-                    By 
-                    Homecat
-                    
-                    </span>
-                </p>
-            </div>
-        </a>
-    </div>
-    
-</section>
-    
-
-
-<section class="item">
-
-    <div class="item-thumbnail">
-    
-        
-            <img src="https://pic.imgdb.cn/item/658501efc458853aef8aec71.jpg" alt="Thumbnail">
-        
-    
-    </div>
-
-    <div class="item-text">
-        <a href="https://walden.genway.com.cn/blog/markdown-syntax-2/">
-            <div class="item-text-title"><b>Markdown Syntax - Table, Footnotes, Links and Lists</b></div>
-            <div class="item-text-brief"><p>This post showcases the manifestations of the markdown grammar related to table, footnotes, links and lists in this hugo theme.</p></div>
-            <div class="item-text-meta">
-                <p>
-                    <span>Jul 20, 2023</span>
-                    <span>
-                    By 
-                    Homecat
-                    
-                    </span>
-                </p>
-            </div>
-        </a>
-    </div>
-    
-</section>
-    
-
-
-<section class="item">
-
-    <div class="item-thumbnail">
-    
-        
-            <img src="https://pic.imgdb.cn/item/658501efc458853aef8aec71.jpg" alt="Thumbnail">
-        
-    
-    </div>
-
-    <div class="item-text">
-        <a href="https://walden.genway.com.cn/blog/markdown-syntax-1/">
-            <div class="item-text-title"><b>Markdown Syntax - Text</b></div>
-            <div class="item-text-brief"><p>Markdown is a lightweight markup language used to add formatting elements to plain text documents. This post showcases the manifestations of the markdown grammar related to text in this hugo theme.</p></div>
-            <div class="item-text-meta">
-                <p>
-                    <span>Jul 19, 2023</span>
-                    <span>
-                    By 
-                    Homecat
-                    
-                    </span>
-                </p>
-            </div>
-        </a>
-    </div>
-    
-</section>
-    
-
-
-<section class="item">
-
-    <div class="item-thumbnail">
-    
-        
-            <img src="https://pic.imgdb.cn/item/658501efc458853aef8aec71.jpg" alt="Thumbnail">
-        
-    
-    </div>
-
-    <div class="item-text">
-        <a href="https://walden.genway.com.cn/blog/shortcode-syntax/">
-            <div class="item-text-title"><b>Shortcode Syntax - Figure</b></div>
-            <div class="item-text-brief"><p>In hugo theme Walden, the application of shortcodes enrich the presentation of content and is constantly maintained and updated.</p></div>
-            <div class="item-text-meta">
-                <p>
-                    <span>Jan 10, 2023</span>
-                    <span>
-                    By 
-                    Homecat
-                    
-                    </span>
-                </p>
-            </div>
-        </a>
-    </div>
-    
-</section>
-    
-
-</div>
-        </main>
-        <div class="gutter"></div>
-        <aside>
-            <div class="cards-container">
-                <div class="card-container"><div class="about">
-    <div class="avatar">
-        <img src="/image/avatar.jpg" alt="avatar">
-    </div>
-    <p class="name">Homecat</p>
-    <p class="description">Amateur programmer ~ Hiker ~ Half-marathon runner ~ Classical music lover ...</p>
-    <p class="email">
-        <span><i class="bi bi-envelope"></i></span> 
-        <span>13050082@qq.com</span>
-    </p>
-</div></div>
-            </div>
-        </aside>
-    </div>
-</div>
-
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Apple
+            
+          
         </div>
-        <footer id="footer"><div class="container">
-    <div class="copyright">
-        <i class="bi bi-c-circle"></i>
-        <span>2024</span>
-        <span>Homecat</span>
-        <span>All Rights Reserved</span>
+        <div class="tile__headline">From farm to sea: Conserving mangroves to protect local livelihoods and the planet</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 1, 2023</div>
     </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-2up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-launches-freeform-a-powerful-new-app-designed-for-creative-collaboration/
+    class="tile large-load  medium-load small-load
+      
+      tile-2up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/product/apps/standard/Apple-Freeform-hero_big.jpg.large_2x.jpg" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 推出为头脑风暴和创意协作设计的全新强大 app 无边记</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">February 27, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-2up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-introduces-the-new-homepod-with-breakthrough-sound-and-intelligence/
+    class="tile large-load  medium-load small-load
+      
+      tile-2up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large_2x.jpg" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 推出新款 HomePod，带来突破性音质与智能体验</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">February 27, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-reports-first-quarter-results/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 公布第一季度业绩</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">January 17, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/vr-games-week-2023-starts-next-week/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://cdn2.unrealengine.com/vr-week-2023-header-4-1920x1080-376e6c48383f.jpg?resize=1&amp;w=1920" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              功能
+            
+          
+        </div>
+        <div class="tile__headline">2023年VR游戏周即将到来！</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">December 27, 2022</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/the-first-year-out-moving-from-student-to-3d-artist/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://cdn2.unrealengine.com/student-to-3d-artist-header-1920x1080-73d477520f8e.jpg?resize=1&amp;w=1920" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              特写
+            
+          
+        </div>
+        <div class="tile__headline">毕业第一年：从学生向3D美术师的转变</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">December 7, 2022</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/captured-on-iphone-14-photographers-inspire-iphone-users-to-capture-portraits-landscapes-city-scenes-and-stunning-videos/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/cn/images/product/iphone/lifestyle/Apple_Shot-on-iPhone-14-models_iPhone-14-Pro-Max-with-the-Main-Camera-by-Xiaobei-Fuzhou_12192022_Full-Bleed-Image.jpg.xlarge_2x.jpg" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">用 iPhone 14 拍摄：摄影佳作激发创作灵感，定格精彩人像、自然与城市风光</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 27, 2022</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/unreal-engine-5-1-delivers-new-features-for-filmmaking-broadcast-animation-and-live-events/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://cdn2.unrealengine.com/unreal-engine-5-1-media-and-entertainment-header-1920x1080-d314b1b23459.jpg?resize=1&amp;w=1920" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              功能
+            
+          
+        </div>
+        <div class="tile__headline">虚幻引擎5.1带来电影、广播、动画和实况活动新功能</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">November 12, 2022</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+          
+<li
+  role="listitem"class="tile-item nr-scroll-animation item-3up"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/battle-testing-unreal-engine-5-1-s-new-features-on-fortnite-battle-royale-chapter-4/
+    class="tile large-load  medium-load small-load
+      
+      tile-3up
+      
+      "
+    aria-label=ZgotmplZ
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://cdn2.unrealengine.com/unreal-engine-5-1-features-for-fortnite-chapter-4-header-1920x1080-2e96869442d6.jpg?resize=1&amp;w=1920" alt="lt"/>
+    </div>
+
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              功能
+            
+          
+        </div>
+        <div class="tile__headline">UE5.1新功能在《堡垒之夜：大逃杀》第四章中的实战测试</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">October 27, 2022</div>
+    </div>
+  </a>
+</li>
+
+        
+      </ul>
+    </div>
+  </section><section class="more-from-newsroom">
+    <div class="section-content">
+      <h2 class="section-head">More Articles</h2>
+      <ul role="list" class="section-tiles">
+
+      
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/hello-world/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Introduce
+            
+          
+        </div>
+        <div class="tile__headline">iTheme for Hugo</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 25, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/mark-down-syntax/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Markdown
+            
+          
+        </div>
+        <div class="tile__headline">Markdown Syntax Example</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 20, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/values/environment/Apple-Earth-Day-India-mangrove-Alibaug-canoe_Full-Bleed-Image.jpg.large_2x.jpg" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              Apple
+            
+          
+        </div>
+        <div class="tile__headline">From farm to sea: Conserving mangroves to protect local livelihoods and the planet</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">March 1, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-launches-freeform-a-powerful-new-app-designed-for-creative-collaboration/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/product/apps/standard/Apple-Freeform-hero_big.jpg.large_2x.jpg" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 推出为头脑风暴和创意协作设计的全新强大 app 无边记</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">February 27, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-introduces-the-new-homepod-with-breakthrough-sound-and-intelligence/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large_2x.jpg" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 推出新款 HomePod，带来突破性音质与智能体验</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">February 27, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+          
+<li
+  role="listitem"
+  class="tile-item item-list nr-scroll-animation"
+  style="--nr-animation-transform-y:20%;"
+>
+  <a
+    href=/posts/apple-reports-first-quarter-results/
+    class="tile tile-list medium-load small-load large-load"
+    aria-label={label}
+  >
+    <div class="tile__media" aria-hidden="true"><img class="cover image" data-src="https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg" alt="lt"/>
+    </div>
+    <div class="tile__description" aria-hidden="true">
+      <div class="tile__head">
+        <div class="tile__category">
+          
+            
+              新闻稿
+            
+          
+        </div>
+        <div class="tile__headline">Apple 公布第一季度业绩</div>
+      </div>
+      <div class="tile__timestamp icon-hide icon icon-before icon-clock">January 17, 2023</div>
+    </div>
+  </a>
+</li>
+
+        
+      </ul>
+      <div class="view-archive-wrapper">
+        <a href="/posts " class="cta-primary-light" data-analytics-region="router" data-analytics-title="view archive">View Archive</a>
+      </div>
+    </div>
+  </section><script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var script = document.createElement("script");
+        script.src = "/js/animation.js";
+        document.head.appendChild(script);
+
+        script.onload = function () {
+          console.log("lazyload.js loaded");
+          
+          initImage();
+        };
+      });
+    </script>
+
+    
+    <div class="footer-main ">
+  <div class="content-body footer-wraper">
+    <div class="footer-box">
+      <div class="foot-nav">
+        <div class="foot-nav-items">
+          <div class="item">
+            <div class="logo"></div>
+            <div class="email">Email: <a href="mailto:floyd.li@outlook.com">floyd.li@outlook.com</a></div>
+          </div>
+
+          <div class="item community">
+            <div class="item-title">Social Media</div>
+            
+              <a href="https://github.com/floyd-li" target="_blank">Github</a>
+            
+          </div>
+
+          <div class="item resources">
+            <div class="item-title">Related</div>
+            
+              <a href="https://yufengbiji.com/" target="_blank">驭风笔记</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="item copyright">
+          &copy; 2024
+          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</footer>
-<script src="/vendor/jquery/jquery-3.7.0.js"></script>
 
+  </body>
+    
+    
 
-<script src="/js/main.js"></script></body>
+    
+    
 </html>
-

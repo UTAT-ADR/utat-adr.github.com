@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iTheme</title>
-    <link>/</link>
-    <description>Recent content on iTheme</description>
+    <title>Posts on iTheme</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on iTheme</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
     <lastBuildDate>Sat, 25 Mar 2023 15:04:53 +0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iTheme for Hugo</title>
       <link>/posts/hello-world/</link>
@@ -92,13 +92,6 @@
       <pubDate>Fri, 25 Mar 2022 15:00:53 +0800</pubDate>
       <guid>/posts/hello-world-cn/</guid>
       <description>如果喜欢这个主题, 请给我点赞！ 介绍 English Readme 一个苹果味十足的Hugo主题，移植自astro-air-blog 预览 测试站点 快速开始 在开始之前，请先安</description>
-    </item>
-    <item>
-      <title>关于我们</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description>苹果公司（英语：Apple Inc.），原称苹果电脑公司（英语：Apple Computer, Inc.），是源自美国的跨国科技公司，总部位于美国加州的库比蒂诺，</description>
     </item>
   </channel>
 </rss>

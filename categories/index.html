@@ -1,180 +1,132 @@
-
 <!DOCTYPE html>
-<html lang="en-US" data-theme="light">
+<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
+  <head>
     <head>
-<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/favicon.ico">
 
+    <meta name="keyword" content=""><meta property="og:url" content="/categories/">
+  <meta property="og:site_name" content="iTheme">
+  <meta property="og:title" content="Categories">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<title>Categories</title>
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="/categories/">
 
+    <link rel="stylesheet" href="/css/global.css">
 
-<title>Categories ｜ Walden</title>
+    <link rel="stylesheet" href="/css/custom.css">
 
+    <link rel="stylesheet" href="/css/search.css" />
 
-<link href="/favicon.png" rel="icon">
-<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+    
+    
 
+    
+    
 
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
-
-
-
-<link href="/css/main.css" rel="stylesheet" type="text/css">
 </head>
-    <body>
-        <header id="header"><header class="container base-header">
-
-    <div id="title">
-        <a href="/" >Walden</a>
+  </head>
+  <body class=" page-landing   ">
+    <header>
+      <nav class="nav">
+  <div class="nav-wrapper">
+    <div class="nav-content-wrapper">
+      <div class="nav-content">
+        <a href="/ " class="nav-title">iTheme</a>
+        <div class="nav-menu">
+          <div class="nav-item-wrapper">
+            <a href="/posts " class="nav-item-content">Articles</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/about" class="nav-item-content">About</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
+          </div></div>
+      </div>
     </div>
-    
-    <div id="menuToggle">
-        <a><i class="bi bi-list"></i></a>
+  </div>
+</nav>
+
+<script>
+  function toggleSearchModal(){
+    const template = `
+    <div class="modal-body">
+      <div id="autocomplete" onclick="event.stopPropagation();"></div>
     </div>
+    `
+    const modal = document.querySelector("#modal-wrapper")
+    if(!modal){
+      const div = document.createElement("div")
+      document.body.setAttribute("style","overflow: hidden;")
+      div.setAttribute("id", "modal-wrapper")
+      div.setAttribute("onclick", "toggleSearchModal()")
+      div.innerHTML = template
+      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
+      div.appendChild(script)
+      document.body.append(div)
+    } else {
+      document.body.removeAttribute("style")
+      document.body.removeChild(modal)
+    }
+  }
+</script>
+    </header>
     
-    <div id="menu">
-        <ul class="menu">
-        
-        
-            
-            
-            <li class="menu-item">
-                <a class="" href="/">Home</a>
-            </li>
-        
-            
-            
-            <li class="menu-item">
-                <a class="" href="/blog/">Blog</a>
-            </li>
-        
-        
-        
-            
-                <li class="menu-item">
-                    <a class="lang-toggle" href="https://walden.genway.com.cn/zh/">中文</a>
-                </li>
-                
-            
-        
-        
-        </ul>
-    </div>
-
-</header>
-
-
-</header>
-        <div id="necker">
-<div class="container"><ol class="breadcrumb">
-    
-    
-        
-    
-    <li class="breadcrumb-item">Home</li>
-
-    
-    <li class="breadcrumb-item">Categories</li>
-
-</ol>
-</div>
-
+<div class="results">
+    <div class="results__content">
+      <div class="result" role="group">
+        <h2 class="result__title">“All Tags”</h2>
+        <div class="tags-list">
+          
         </div>
-        <div id="stager">
-<div class="container">
-    <div class="stager">
-        <main>
-            <div class="list-container">
+      </div>
+    </div>
+</div>
 
-<section class="item">
 
-    <div class="item-thumbnail">
     
-        
-            <img src="/image/default/thumbnail.jpg" alt="Thumbnail">
-        
-    
-    </div>
+    <div class="footer-main ">
+  <div class="content-body footer-wraper">
+    <div class="footer-box">
+      <div class="foot-nav">
+        <div class="foot-nav-items">
+          <div class="item">
+            <div class="logo"></div>
+            <div class="email">Email: <a href="mailto:floyd.li@outlook.com">floyd.li@outlook.com</a></div>
+          </div>
 
-    <div class="item-text">
-        <a href="https://walden.genway.com.cn/categories/hugo-theme/">
-            <div class="item-text-title"><b>Hugo Theme</b></div>
-            <div class="item-text-brief"></div>
-            <div class="item-text-meta">
-                <p>
-                    <span>Aug 25, 2023</span>
-                    <span>
-                    By 
-                    
-                    
-                    </span>
-                </p>
-            </div>
-        </a>
-    </div>
+          <div class="item community">
+            <div class="item-title">Social Media</div>
+            
+              <a href="https://github.com/floyd-li" target="_blank">Github</a>
+            
+          </div>
 
-</section>
-    
-
-
-
-
-
-</div>
-            <div class="nav-container">
-
-</div>
-        </main>
-        <div class="gutter"></div>
-        <aside>
-            <div class="cards-container">
-                <div class="card-container">
-<section class="card">
-    <div class="card-title">CATEGORY</div>
-    <div class="category">
-        
-        <a class="item-link" href="https://walden.genway.com.cn/categories/hugo-theme/">
-            <span>Hugo Theme</span>
-            <span class="dashed-line"></span>
-            <span>5</span>
-        </a>
-        
-    </div>
-</section>
-</div>
-                <div class="card-container">
-<section class="card">
-    <div class="card-title">TAG</div>
-    <div class="tag">
-        
-        <a class="item-link" href="https://walden.genway.com.cn/tags/hugo/">Hugo<span>5</span></a>
-        
-        <a class="item-link" href="https://walden.genway.com.cn/tags/walden/">Walden<span>4</span></a>
-        
-    </div>
-</section>
-</div>
-            </div>
-        </aside>
-    </div>
-</div>
-
+          <div class="item resources">
+            <div class="item-title">Related</div>
+            
+              <a href="https://yufengbiji.com/" target="_blank">驭风笔记</a>
+            
+          </div>
         </div>
-        <footer id="footer"><div class="container">
-    <div class="copyright">
-        <i class="bi bi-c-circle"></i>
-        <span>2024</span>
-        <span>Homecat</span>
-        <span>All Rights Reserved</span>
+      </div>
+      <div class="bottom">
+        <div class="item copyright">
+          &copy; 2024
+          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
-</footer>
-<script src="/vendor/jquery/jquery-3.7.0.js"></script>
 
+  </body>
+    
+    
 
-<script src="/js/main.js"></script></body>
+    
+    
 </html>
-
