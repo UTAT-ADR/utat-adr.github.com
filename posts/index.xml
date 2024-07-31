@@ -38,14 +38,21 @@
       <description></description>
     </item>
     <item>
-      <title>Last Day of ICRA2024</title>
+      <title>OptiTrack in the Dome</title>
+      <link>//localhost:1313/posts/2024/post-0531/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0531/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Last Day in ICRA2024</title>
       <link>//localhost:1313/posts/2024/post-0518/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/2024/post-0518/</guid>
       <description></description>
     </item>
     <item>
-      <title>ICRA2024 Best Paper Award on UAVs</title>
+      <title>ICRA2024 Best Paper Award on UAVs Received!</title>
       <link>//localhost:1313/posts/2024/post-0517/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/2024/post-0517/</guid>
@@ -53,16 +60,44 @@
     </item>
     <item>
       <title>Crazy Red</title>
-      <link>//localhost:1313/posts/2024/post-0503/</link>
+      <link>//localhost:1313/posts/2024/post-0505/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0505/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mans After Works</title>
+      <link>//localhost:1313/posts/2024/post-0504/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0504/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brand New Dome</title>
+      <link>//localhost:1313/posts/2024/post-0503_02/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0503/</guid>
+      <guid>//localhost:1313/posts/2024/post-0503_02/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing Dome In Construction</title>
-      <link>//localhost:1313/posts/2024/post-0509/</link>
+      <link>//localhost:1313/posts/2024/post-0503_01/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0509/</guid>
+      <guid>//localhost:1313/posts/2024/post-0503_01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cleaning Space for the Racing Dome</title>
+      <link>//localhost:1313/posts/2024/post-0421_01/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0421_01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sands Have Been Gone</title>
+      <link>//localhost:1313/posts/2024/post-0421_02/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0421_02/</guid>
       <description></description>
     </item>
     <item>
@@ -94,17 +129,24 @@
       <description></description>
     </item>
     <item>
-      <title>Old Pal</title>
-      <link>//localhost:1313/posts/2024/post-0101/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0101/</guid>
+      <title>Progress of our CV Team</title>
+      <link>//localhost:1313/posts/2024/post-0226/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0226/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Longly Gate in the Dome</title>
+      <link>//localhost:1313/posts/2024/post-0202/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0202/</guid>
       <description></description>
     </item>
     <item>
       <title>Old Pal</title>
-      <link>//localhost:1313/posts/2024/post-0202/</link>
+      <link>//localhost:1313/posts/2024/post-0101/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0202/</guid>
+      <guid>//localhost:1313/posts/2024/post-0101/</guid>
       <description></description>
     </item>
     <item>
@@ -129,7 +171,14 @@
       <description></description>
     </item>
     <item>
-      <title>Betaflight Testing</title>
+      <title>First Flight Test</title>
+      <link>//localhost:1313/posts/2023/post-1105/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2023/post-1105/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BetaFlight FCU Testing</title>
       <link>//localhost:1313/posts/2023/post-1014/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/2023/post-1014/</guid>
@@ -140,6 +189,20 @@
       <link>//localhost:1313/posts/2023/post-1015/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/2023/post-1015/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Submit a Paper to ICRA2024</title>
+      <link>//localhost:1313/posts/2023/post-0915/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2023/post-0915/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Our First Racing Drone</title>
+      <link>//localhost:1313/posts/2022/post-0901/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2022/post-0901/</guid>
       <description></description>
     </item>
   </channel>
