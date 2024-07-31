@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var baseURL = "/";
+  var baseURL = "//localhost:1313/";
   var params = { blogroll: [{ name: "FSC Lab", url: "https://www.flight.utias.utoronto.ca/fsc/" }], defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "chao.qin@mail.utoronto.ca", showcopyright: false, showmore: true, showrss: false, socialmedia: [{ name: "Github", url: "https://github.com/UTAT-ADR/" }] };
 
   // <stdin>

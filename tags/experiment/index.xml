@@ -2,116 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiment on UofT ADR Team</title>
-    <link>/tags/experiment/</link>
+    <link>//localhost:1313/tags/experiment/</link>
     <description>Recent content in Experiment on UofT ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
     <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autonomous Drone Racing Meets LEDs</title>
-      <link>/posts/2024/post-0730/</link>
+      <link>//localhost:1313/posts/2024/post-0730/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0730/</guid>
+      <guid>//localhost:1313/posts/2024/post-0730/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flight in Racing Dome</title>
+      <link>//localhost:1313/posts/2024/post-0705/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0705/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing With Gates</title>
-      <link>/posts/2024/post-0713/</link>
+      <link>//localhost:1313/posts/2024/post-0713/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0713/</guid>
+      <guid>//localhost:1313/posts/2024/post-0713/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing Experiment</title>
-      <link>/posts/2024/post-0618/</link>
+      <link>//localhost:1313/posts/2024/post-0618/</link>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0618/</guid>
+      <guid>//localhost:1313/posts/2024/post-0618/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Last Day of ICRA2024</title>
+      <link>//localhost:1313/posts/2024/post-0518/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0518/</guid>
       <description></description>
     </item>
     <item>
       <title>ICRA2024 Best Paper Award on UAVs</title>
-      <link>/posts/2024/post-0517/</link>
+      <link>//localhost:1313/posts/2024/post-0517/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0517/</guid>
+      <guid>//localhost:1313/posts/2024/post-0517/</guid>
       <description></description>
     </item>
     <item>
       <title>Crazy Red</title>
-      <link>/posts/2024/post-0503/</link>
+      <link>//localhost:1313/posts/2024/post-0503/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0503/</guid>
+      <guid>//localhost:1313/posts/2024/post-0503/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing Dome In Construction</title>
-      <link>/posts/2024/post-0509/</link>
+      <link>//localhost:1313/posts/2024/post-0509/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0509/</guid>
+      <guid>//localhost:1313/posts/2024/post-0509/</guid>
       <description></description>
     </item>
     <item>
       <title>UTIAS Mars Dome</title>
-      <link>/posts/2024/post-0420/</link>
+      <link>//localhost:1313/posts/2024/post-0420/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0420/</guid>
+      <guid>//localhost:1313/posts/2024/post-0420/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Racing Dome</title>
-      <link>/posts/2024/post-0415/</link>
+      <link>//localhost:1313/posts/2024/post-0415/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0415/</guid>
+      <guid>//localhost:1313/posts/2024/post-0415/</guid>
       <description></description>
     </item>
     <item>
       <title>Ready To Fly</title>
-      <link>/posts/2024/post-0325/</link>
+      <link>//localhost:1313/posts/2024/post-0325/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0325/</guid>
+      <guid>//localhost:1313/posts/2024/post-0325/</guid>
       <description></description>
     </item>
     <item>
       <title>Meeting with Prof. Liu</title>
-      <link>/posts/2024/post-0324/</link>
+      <link>//localhost:1313/posts/2024/post-0324/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0324/</guid>
+      <guid>//localhost:1313/posts/2024/post-0324/</guid>
       <description></description>
     </item>
     <item>
       <title>Old Pal</title>
-      <link>/posts/2024/post-0101/</link>
+      <link>//localhost:1313/posts/2024/post-0101/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024/post-0101/</guid>
+      <guid>//localhost:1313/posts/2024/post-0101/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Old Pal</title>
+      <link>//localhost:1313/posts/2024/post-0202/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/post-0202/</guid>
       <description></description>
     </item>
     <item>
       <title>Livox Mid360 Lidar</title>
-      <link>/posts/2023/post-1231/</link>
+      <link>//localhost:1313/posts/2023/post-1231/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023/post-1231/</guid>
+      <guid>//localhost:1313/posts/2023/post-1231/</guid>
       <description></description>
     </item>
     <item>
       <title>ADR Racing Gates</title>
-      <link>/posts/2023/post-1122/</link>
+      <link>//localhost:1313/posts/2023/post-1122/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023/post-1122/</guid>
+      <guid>//localhost:1313/posts/2023/post-1122/</guid>
       <description></description>
     </item>
     <item>
       <title>Build Our Gates</title>
-      <link>/posts/2023/post-1120/</link>
+      <link>//localhost:1313/posts/2023/post-1120/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023/post-1120/</guid>
+      <guid>//localhost:1313/posts/2023/post-1120/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Betaflight Testing</title>
+      <link>//localhost:1313/posts/2023/post-1014/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2023/post-1014/</guid>
       <description></description>
     </item>
     <item>
       <title>Build ADR Drones</title>
-      <link>/posts/2023/post-1015/</link>
+      <link>//localhost:1313/posts/2023/post-1015/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023/post-1015/</guid>
+      <guid>//localhost:1313/posts/2023/post-1015/</guid>
       <description></description>
     </item>
   </channel>
