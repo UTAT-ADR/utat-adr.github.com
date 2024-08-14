@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var params_default = { baseURL: "//localhost:1313/" };
+  var params_default = { baseURL: "https://utat-adr.github.io/" };
 
   // <stdin>
   var scriptMd5 = document.createElement("script");

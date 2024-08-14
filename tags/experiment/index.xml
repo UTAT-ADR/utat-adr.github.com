@@ -2,200 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiment on UofT ADR Team</title>
-    <link>//localhost:1313/tags/experiment/</link>
+    <link>https://utat-adr.github.io/tags/experiment/</link>
     <description>Recent content in Experiment on UofT ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
     <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://utat-adr.github.io/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autonomous Drone Racing Meets LEDs</title>
-      <link>//localhost:1313/posts/2024/post-0730/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0730/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0730/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0730/</guid>
       <description></description>
     </item>
     <item>
       <title>Flight in Racing Dome</title>
-      <link>//localhost:1313/posts/2024/post-0705/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0705/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0705/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0705/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing With Gates</title>
-      <link>//localhost:1313/posts/2024/post-0713/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0713/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0713/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0713/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing Experiment</title>
-      <link>//localhost:1313/posts/2024/post-0618/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0618/</link>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0618/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0618/</guid>
       <description></description>
     </item>
     <item>
       <title>OptiTrack in the Dome</title>
-      <link>//localhost:1313/posts/2024/post-0531/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0531/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0531/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0531/</guid>
       <description></description>
     </item>
     <item>
       <title>Last Day in ICRA2024</title>
-      <link>//localhost:1313/posts/2024/post-0518/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0518/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0518/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0518/</guid>
       <description></description>
     </item>
     <item>
       <title>ICRA2024 Best Paper Award on UAVs Received!</title>
-      <link>//localhost:1313/posts/2024/post-0517/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0517/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0517/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0517/</guid>
       <description></description>
     </item>
     <item>
       <title>Crazy Red</title>
-      <link>//localhost:1313/posts/2024/post-0505/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0505/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0505/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0505/</guid>
       <description></description>
     </item>
     <item>
       <title>Mans After Works</title>
-      <link>//localhost:1313/posts/2024/post-0504/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0504/</link>
       <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0504/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0504/</guid>
       <description></description>
     </item>
     <item>
       <title>Brand New Dome</title>
-      <link>//localhost:1313/posts/2024/post-0503_02/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0503_02/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0503_02/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0503_02/</guid>
       <description></description>
     </item>
     <item>
       <title>Racing Dome In Construction</title>
-      <link>//localhost:1313/posts/2024/post-0503_01/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0503_01/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0503_01/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0503_01/</guid>
       <description></description>
     </item>
     <item>
       <title>Cleaning Space for the Racing Dome</title>
-      <link>//localhost:1313/posts/2024/post-0421_01/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0421_01/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0421_01/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0421_01/</guid>
       <description></description>
     </item>
     <item>
       <title>Sands Have Been Gone</title>
-      <link>//localhost:1313/posts/2024/post-0421_02/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0421_02/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0421_02/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0421_02/</guid>
       <description></description>
     </item>
     <item>
       <title>UTIAS Mars Dome</title>
-      <link>//localhost:1313/posts/2024/post-0420/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0420/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0420/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0420/</guid>
       <description></description>
     </item>
     <item>
       <title>Project Racing Dome</title>
-      <link>//localhost:1313/posts/2024/post-0415/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0415/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0415/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0415/</guid>
       <description></description>
     </item>
     <item>
       <title>Ready To Fly</title>
-      <link>//localhost:1313/posts/2024/post-0325/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0325/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0325/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0325/</guid>
       <description></description>
     </item>
     <item>
       <title>Meeting with Prof. Liu</title>
-      <link>//localhost:1313/posts/2024/post-0324/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0324/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0324/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0324/</guid>
       <description></description>
     </item>
     <item>
       <title>Progress of our CV Team</title>
-      <link>//localhost:1313/posts/2024/post-0226/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0226/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0226/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0226/</guid>
       <description></description>
     </item>
     <item>
-      <title>Longly Gate in the Dome</title>
-      <link>//localhost:1313/posts/2024/post-0202/</link>
+      <title>Lonely Gate in the Dome</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0202/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0202/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0202/</guid>
       <description></description>
     </item>
     <item>
       <title>Old Pal</title>
-      <link>//localhost:1313/posts/2024/post-0101/</link>
+      <link>https://utat-adr.github.io/posts/2024/post-0101/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024/post-0101/</guid>
+      <guid>https://utat-adr.github.io/posts/2024/post-0101/</guid>
       <description></description>
     </item>
     <item>
       <title>Livox Mid360 Lidar</title>
-      <link>//localhost:1313/posts/2023/post-1231/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-1231/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-1231/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-1231/</guid>
       <description></description>
     </item>
     <item>
       <title>ADR Racing Gates</title>
-      <link>//localhost:1313/posts/2023/post-1122/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-1122/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-1122/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-1122/</guid>
       <description></description>
     </item>
     <item>
       <title>Build Our Gates</title>
-      <link>//localhost:1313/posts/2023/post-1120/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-1120/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-1120/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-1120/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First Flight Test</title>
+      <link>https://utat-adr.github.io/posts/2023/post-1105/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2023/post-1105/</guid>
       <description></description>
     </item>
     <item>
       <title>BetaFlight FCU Testing</title>
-      <link>//localhost:1313/posts/2023/post-1014/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-1014/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-1014/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-1014/</guid>
       <description></description>
     </item>
     <item>
       <title>Build ADR Drones</title>
-      <link>//localhost:1313/posts/2023/post-1015/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-1015/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-1015/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-1015/</guid>
       <description></description>
     </item>
     <item>
       <title>Submit a Paper to ICRA2024</title>
-      <link>//localhost:1313/posts/2023/post-0915/</link>
+      <link>https://utat-adr.github.io/posts/2023/post-0915/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023/post-0915/</guid>
+      <guid>https://utat-adr.github.io/posts/2023/post-0915/</guid>
       <description></description>
     </item>
     <item>
       <title>Our First Racing Drone</title>
-      <link>//localhost:1313/posts/2022/post-0901/</link>
+      <link>https://utat-adr.github.io/posts/2022/post-0901/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2022/post-0901/</guid>
+      <guid>https://utat-adr.github.io/posts/2022/post-0901/</guid>
       <description></description>
     </item>
   </channel>
