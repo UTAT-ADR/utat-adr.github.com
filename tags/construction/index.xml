@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Construction on UofT ADR Team</title>
+    <link>https://utat-adr.github.io/tags/construction/</link>
+    <description>Recent content in Construction on UofT ADR Team</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Floyd Li</copyright>
+    <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://utat-adr.github.io/tags/construction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Racing Dome Construction Started</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0505/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0505/</guid>
+      <description>We announce the start of construction for our new drone racing arena in the UTIAS dome. This development marks a significant milestone for our team, addressing the long-standing need for a larger and more convenient racing area. Previously, we relied on the motion capture room in the Learning Systems &amp;amp; Robotics Lab, which was too small and inconvenient for our growing needs. The new racing dome will provide a spacious flying and tracking area, tailored to our requirements.</description>
+    </item>
+  </channel>
+</rss>

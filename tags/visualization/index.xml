@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on UofT ADR Team</title>
+    <link>https://utat-adr.github.io/tags/visualization/</link>
+    <description>Recent content in Visualization on UofT ADR Team</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Floyd Li</copyright>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://utat-adr.github.io/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Drone Racing Meets LEDs</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0730/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0730/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Simulation Development</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0715/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0715/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>

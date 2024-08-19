@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drones on UofT ADR Team</title>
+    <link>https://utat-adr.github.io/tags/drones/</link>
+    <description>Recent content in Drones on UofT ADR Team</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Floyd Li</copyright>
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://utat-adr.github.io/tags/drones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UTIAS 75th Anniversary Demo</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0510/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0510/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Flight in a Real Race Course</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0325/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0325/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Assemply ADR Drones</title>
+      <link>https://utat-adr.github.io/posts/2023/post-1015/</link>
+      <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2023/post-1015/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>
