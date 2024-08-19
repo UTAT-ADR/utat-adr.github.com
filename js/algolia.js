@@ -1,7 +1,7 @@
 (() => {
   // ns-params:@params
   var baseURL = "https://utat-adr.github.io/";
-  var params = { blogroll: [{ name: "FSC Lab", url: "https://www.flight.utias.utoronto.ca/fsc/" }], defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "chao.qin@mail.utoronto.ca", showcopyright: false, showmore: true, showrss: false, socialmedia: [{ name: "Github", url: "https://github.com/UTAT-ADR/" }] };
+  var params = { blogroll: [{ name: "FSC Lab", url: "https://www.flight.utias.utoronto.ca/fsc/" }], defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "utat.adr@flight.utias.utoronto.ca", showcopyright: false, showmore: true, showrss: false, socialmedia: [{ name: "Github", url: "https://github.com/UTAT-ADR/" }] };
 
   // <stdin>
   var { appid, appkey, searchindex: indexName, enabled } = params.algolia;
