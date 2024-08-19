@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drone on UofT ADR Team</title>
+    <title>Drone on ADR Team</title>
     <link>https://utat-adr.github.io/tags/drone/</link>
-    <description>Recent content in Drone on UofT ADR Team</description>
+    <description>Recent content in Drone on ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://utat-adr.github.io/tags/drone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Autonomous FPV Drone</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0503/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0503/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Old Pal</title>
+      <link>https://utat-adr.github.io/posts/2024/post-0101/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/posts/2024/post-0101/</guid>
+      <description> </description>
+    </item>
     <item>
       <title>Our First Racing Drone</title>
       <link>https://utat-adr.github.io/posts/2022/post-0901/</link>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on UofT ADR Team</title>
+    <title>Tags on ADR Team</title>
     <link>https://utat-adr.github.io/tags/</link>
-    <description>Recent content in Tags on UofT ADR Team</description>
+    <description>Recent content in Tags on ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
@@ -115,10 +115,24 @@
       <description></description>
     </item>
     <item>
+      <title>Drone</title>
+      <link>https://utat-adr.github.io/tags/drone/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/tags/drone/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Time-Optimal Planning</title>
       <link>https://utat-adr.github.io/tags/time-optimal-planning/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://utat-adr.github.io/tags/time-optimal-planning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meeting</title>
+      <link>https://utat-adr.github.io/tags/meeting/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://utat-adr.github.io/tags/meeting/</guid>
       <description></description>
     </item>
     <item>
@@ -154,13 +168,6 @@
       <link>https://utat-adr.github.io/tags/paper/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://utat-adr.github.io/tags/paper/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Drone</title>
-      <link>https://utat-adr.github.io/tags/drone/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://utat-adr.github.io/tags/drone/</guid>
       <description></description>
     </item>
   </channel>

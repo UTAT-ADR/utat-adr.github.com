@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on UofT ADR Team</title>
+    <title>Posts on ADR Team</title>
     <link>https://utat-adr.github.io/posts/</link>
-    <description>Recent content in Posts on UofT ADR Team</description>
+    <description>Recent content in Posts on ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
@@ -101,7 +101,7 @@
       <description> </description>
     </item>
     <item>
-      <title>Assemply ADR Drones</title>
+      <title>Assemply of ADR Drones</title>
       <link>https://utat-adr.github.io/posts/2023/post-1015/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://utat-adr.github.io/posts/2023/post-1015/</guid>

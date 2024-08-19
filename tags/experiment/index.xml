@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Experiment on UofT ADR Team</title>
+    <title>Experiment on ADR Team</title>
     <link>https://utat-adr.github.io/tags/experiment/</link>
-    <description>Recent content in Experiment on UofT ADR Team</description>
+    <description>Recent content in Experiment on ADR Team</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Floyd Li</copyright>
@@ -31,13 +31,6 @@
       <description> </description>
     </item>
     <item>
-      <title>New Autonomous FPV Drone</title>
-      <link>https://utat-adr.github.io/posts/2024/post-0503/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://utat-adr.github.io/posts/2024/post-0503/</guid>
-      <description> </description>
-    </item>
-    <item>
       <title>Flight in a Real Race Course</title>
       <link>https://utat-adr.github.io/posts/2024/post-0325/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
@@ -45,21 +38,7 @@
       <description> </description>
     </item>
     <item>
-      <title>Meeting with Prof. Liu</title>
-      <link>https://utat-adr.github.io/posts/2024/post-0305/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://utat-adr.github.io/posts/2024/post-0305/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>Old Pal</title>
-      <link>https://utat-adr.github.io/posts/2024/post-0101/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://utat-adr.github.io/posts/2024/post-0101/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>Assemply ADR Drones</title>
+      <title>Assemply of ADR Drones</title>
       <link>https://utat-adr.github.io/posts/2023/post-1015/</link>
       <pubDate>Sun, 15 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://utat-adr.github.io/posts/2023/post-1015/</guid>
